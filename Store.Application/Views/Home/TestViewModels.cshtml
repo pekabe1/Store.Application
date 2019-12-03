@@ -1,0 +1,16 @@
+﻿
+@model IEnumerable<TestViewModel>
+@{
+    ViewData["Title"] = "TestViewModels";
+}
+
+@foreach (TestViewModel item in Model)
+{
+    <p>
+
+        @item.Name
+
+    </p>
+}
+
+
